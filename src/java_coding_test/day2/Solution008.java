@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Solution008 {
 	public static void main(String[] args) {
-		// 입력받은 문자열 str을 시계방향으로 90도 돌려서 출력하기
-		
+
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		
@@ -25,9 +24,10 @@ public class Solution008 {
 			System.out.println(c);
 		}
 		
-		
 		sc.close();
-
 	}
 
 }
+
+// <문자열 돌리기>
+// 입력받은 문자열 str을 시계방향으로 90도 돌려서 출력

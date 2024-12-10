@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Solution004 {
 	public static void main(String[] args) {
-		// 입력 받은 문자열(1~20자)을 대소문자 바꿔서 출력하기
 		
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
@@ -24,8 +23,9 @@ public class Solution004 {
 //		System.out.println(str);
 		System.out.println(String.valueOf(arrCh));
 		
-		
-		
 		sc.close();
 	}
 }
+
+// <대소문자 바꿔서 출력하기>
+// 입력 받은 문자열(1~20자)을 대소문자 바꿔서 출력

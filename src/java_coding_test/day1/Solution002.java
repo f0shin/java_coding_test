@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Solution002 {
 	public static void main(String[] args) {
-		// 입력받은 두 문자열 a, b를 출력하기
-		
+
 		Scanner sc = new Scanner(System.in);
 		String a = sc.next();
 		String b = sc.next();
@@ -16,3 +15,6 @@ public class Solution002 {
 		sc.close();
 	}
 }
+
+// <a와 b 출력하기>
+// 입력받은 두 문자열 a, b를 출력

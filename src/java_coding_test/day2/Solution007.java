@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Solution007 {
 	public static void main(String[] args) {
-		// 입력받은 두 문자열 str1, str2를 붙여서 출력하기
 		
 		Scanner sc = new Scanner(System.in);
 		String str1 = sc.next();
@@ -24,3 +23,6 @@ public class Solution007 {
 	}
 
 }
+
+// <문자열 붙여서 출력하기>
+// 입력받은 두 문자열 str1, str2를 붙여서 출력
