@@ -1,10 +1,10 @@
-package java_coding_test;
+package java_coding_test.day1;
 
 import java.util.Scanner;
 
-public class Solution1 {
+public class Solution001 {
 	public static void main(String[] args) {
-		// ★문자열 str을 받아서 출력
+		// 입력받은 문자열 str을 출력하기
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		

@@ -1,10 +1,11 @@
-package java_coding_test;
+package java_coding_test.day1;
 
 import java.util.Scanner;
 
-public class Solution2 {
+public class Solution002 {
 	public static void main(String[] args) {
-		// ★문자열 a, b를 입력 받아서 출력
+		// 입력받은 두 문자열 a, b를 출력하기
+		
 		Scanner sc = new Scanner(System.in);
 		String a = sc.next();
 		String b = sc.next();

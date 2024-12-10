@@ -1,8 +1,9 @@
-package java_coding_test;
+package java_coding_test.day1;
 
-public class Solution5 {
+public class Solution005 {
 	public static void main(String[] args) {
-		// ★특수문자(!@#$%^&*(\'"<>?:;) 출력
+		// 특수문자(!@#$%^&*(\'"<>?:;) 출력하기
+		
 		System.out.println("!" + "@" + "#" + "$" + "%" + "^" + "&" + "*" + "("
 				+ "\\" + "\'" + "\"" + "<" + ">" + "?" + ":" + ";");
 	}

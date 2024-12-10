@@ -1,10 +1,11 @@
-package java_coding_test;
+package java_coding_test.day1;
 
 import java.util.Scanner;
 
-public class Solution4 {
+public class Solution004 {
 	public static void main(String[] args) {
-		// ★문자열(1~20자)를 입력받아서 대소문자 바꿔서 출력
+		// 입력 받은 문자열(1~20자)을 대소문자 바꿔서 출력하기
+		
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		
