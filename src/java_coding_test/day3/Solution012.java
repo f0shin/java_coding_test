@@ -11,15 +11,9 @@ public class Solution012 {
 		String str3 = sc.next();
 		
 		String[] arr = {str1, str2, str3};
-		
-		System.out.println(arrStrToStr(arr));
-		
-		sc.close();
-	}
-
-	public static String arrStrToStr(String[] arr) {
 		String answer = "";
 		
+
 		// 내 답안
 //		for (int i = 0; i < arr.length; i++) {
 //			answer += arr[i];
@@ -33,7 +27,9 @@ public class Solution012 {
 		// 다른 답안2 (join 활용) --> 이거 좋다!
 		answer = String.join("", arr);
 
-		return answer;
+		System.out.println(answer);
+		
+		sc.close();
 	}
 
 }
