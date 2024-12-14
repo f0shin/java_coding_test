@@ -3,7 +3,7 @@ package java_coding_test.etc;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionLv2001_Obj {
+public class SolutionLv2001_HashMap {
 	public static void main(String[] args) {
 		String[] rec = { "Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo",
 				"Change uid4567 Ryan" };
