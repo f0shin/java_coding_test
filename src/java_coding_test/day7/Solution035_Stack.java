@@ -3,8 +3,8 @@ package java_coding_test.day7;
 import java.util.Stack;
 
 public class Solution035_Stack {
-
 	public static void main(String[] args) {
+		
 		int[] a = { 1, 4, 2, 5, 3 };
 		int[] result = solution(a);
 
@@ -25,7 +25,7 @@ public class Solution035_Stack {
 		
 		while (i < arr.length) {
 			if (stkTemp.empty()) { // stkTemp가 비었다면, stkTemp에 arr[i]를 추가하고 i++
-				stkTemp.add(arr[i]);
+				stkTemp.push(arr[i]);
 				i++;
 			} else { // stkTemp에 원소가 있고,
 				if (stkTemp.peek() < arr[i]) { // stkTemp의 마지막 원소가 arr[i] 보다 작으면 stkTemp에 arr[i]를 추가하고 i++

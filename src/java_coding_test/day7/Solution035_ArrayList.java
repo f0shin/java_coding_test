@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Solution035_ArrayList {
 	public static void main(String[] args) {
+		
 		int[] a = { 1, 4, 2, 5, 3 };
 		int[] result = solution(a);
 
