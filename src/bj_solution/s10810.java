@@ -2,7 +2,7 @@ package bj_solution;
 
 import java.util.Scanner;
 
-public class s10810 {
+public class S10810 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);

@@ -3,7 +3,7 @@ package bj_solution;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class s5597 {
+public class S5597 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
